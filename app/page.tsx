@@ -1,14 +1,13 @@
-
 import Header from "@/app/components/header";
-import Hero from "@/app/components/hero";
-import Footer from "@/app/components/footer";
+import First from "@/app/components/first-section";
+import Second from "@/app/components/second-section";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col justify-between p-16">
+    <main>
       <Header />
-      <Hero />
-      <Footer />    
+      <First />
+      <Second />
     </main>
   );
 }
